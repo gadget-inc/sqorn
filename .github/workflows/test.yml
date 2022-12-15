@@ -34,4 +34,4 @@ jobs:
       - name: Run tests
         run: npm run test
         env:
-          POSTGRES_URL: "postgres://postgres:test@localhost:5432"
+          POSTGRES_URL: "postgres://postgres:test@127.0.0.1:5432"
